@@ -1,0 +1,14 @@
+D:\C#_study\SourceCode\Chapter 22\BellRingers\BellRingers\bin\Debug\BellRingers.exe.config
+D:\C#_study\SourceCode\Chapter 22\BellRingers\BellRingers\bin\Debug\BellRingers.exe
+D:\C#_study\SourceCode\Chapter 22\BellRingers\BellRingers\bin\Debug\BellRingers.pdb
+D:\C#_study\SourceCode\Chapter 22\BellRingers\BellRingers\obj\Debug\BellRingers.csprojResolveAssemblyReference.cache
+D:\C#_study\SourceCode\Chapter 22\BellRingers\BellRingers\obj\Debug\MainWindow.g.cs
+D:\C#_study\SourceCode\Chapter 22\BellRingers\BellRingers\obj\Debug\App.g.cs
+D:\C#_study\SourceCode\Chapter 22\BellRingers\BellRingers\obj\Debug\BellRingers_MarkupCompile.cache
+D:\C#_study\SourceCode\Chapter 22\BellRingers\BellRingers\obj\Debug\BellRingers_MarkupCompile.lref
+D:\C#_study\SourceCode\Chapter 22\BellRingers\BellRingers\obj\Debug\MainWindow.baml
+D:\C#_study\SourceCode\Chapter 22\BellRingers\BellRingers\obj\Debug\BellRingers.g.resources
+D:\C#_study\SourceCode\Chapter 22\BellRingers\BellRingers\obj\Debug\BellRingers.Properties.Resources.resources
+D:\C#_study\SourceCode\Chapter 22\BellRingers\BellRingers\obj\Debug\BellRingers.csproj.GenerateResource.Cache
+D:\C#_study\SourceCode\Chapter 22\BellRingers\BellRingers\obj\Debug\BellRingers.exe
+D:\C#_study\SourceCode\Chapter 22\BellRingers\BellRingers\obj\Debug\BellRingers.pdb

@@ -1,0 +1,51 @@
+﻿<Window x:Class="BellRingers.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BellRingers"
+        mc:Ignorable="d"
+        Title="BellRingers" Height="470" Width="600" Closing="Window_Closing">
+    <Window.Resources>
+        <Style x:Key="bellRingersFontStyle" TargetType="Control">
+            <Setter Property="FontFamily" Value="Comic Sans MS" />
+        </Style>
+        <Style x:Key="bellRingersStyle" TargetType="Control">
+            <Setter Property="Background" Value="Gray" />
+            <Setter Property="Foreground" Value="Blue" />
+            <Setter Property="FontFamily" Value="Comic Sans MS" />
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="White"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    
+    <Grid>
+        <Label x:Name="label" Content="First Name" HorizontalAlignment="Left" Margin="53,22,0,0" VerticalAlignment="Top" Style="{StaticResource bellRingersFontStyle}"/>
+        <TextBox x:Name="firstName" HorizontalAlignment="Left" Height="23" Margin="142,22,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Style="{StaticResource bellRingersStyle}"/>
+        <Label x:Name="label1" Content="Last Name" HorizontalAlignment="Left" Margin="297,22,0,0" VerticalAlignment="Top" Style="{StaticResource bellRingersFontStyle}"/>
+        <TextBox x:Name="lastName" HorizontalAlignment="Left" Height="23" Margin="405,22,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Style="{StaticResource bellRingersStyle}"/>
+        <Label x:Name="label2" Content="Tower" HorizontalAlignment="Left" Margin="53,68,0,0" VerticalAlignment="Top" Style="{StaticResource bellRingersFontStyle}"/>
+        <CheckBox x:Name="isCaptain" Content="Captain" HorizontalAlignment="Left" Margin="405,68,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.922,0.6" Style="{StaticResource bellRingersFontStyle}"/>
+        <ComboBox x:Name="towerNames" HorizontalAlignment="Left" Margin="142,68,0,0" VerticalAlignment="Top" Width="226"/>
+        <Label x:Name="label3" Content="Member Since" HorizontalAlignment="Left" Margin="53,110,0,0" VerticalAlignment="Top" Style="{DynamicResource bellRingersFontStyle}"/>
+        <DatePicker HorizontalAlignment="Left" Margin="180,110,0,0" VerticalAlignment="Top" Name="memberSince" Width="289"/>
+        <GroupBox x:Name="yearsExperience" Header="Experience" HorizontalAlignment="Left" Margin="53,157,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.013,-0.682" Height="200" Width="187" Style="{DynamicResource bellRingersFontStyle}">
+            <StackPanel Margin="0,0,0,0" Name="stackPanel1">
+                <RadioButton x:Name="novice" Content="Up to 1 year"  Margin="0,10,0,0" Height="16"/>
+                <RadioButton x:Name="intermediate" Content="1 to 4 years"  Margin="0,20,0,0" Height="16"/>
+                <RadioButton x:Name="experienced" Content="5 to 9 years"  Margin="0,30,0,0" Height="16"/>
+                <RadioButton x:Name="accomplished" Content="10 or more years"  Margin="0,40,0,0" Height="16"/>
+            </StackPanel>
+        </GroupBox>
+        <ListBox x:Name="methods" HorizontalAlignment="Left" Height="187" Margin="297,170,0,0" VerticalAlignment="Top" Width="198"/>
+        <Button x:Name="add" Content="Add" HorizontalAlignment="Left" Margin="87,380,0,0" VerticalAlignment="Top" Width="75" Style="{DynamicResource bellRingersFontStyle}" Click="add_Click"/>
+        <Button x:Name="clear" Content="Clear" HorizontalAlignment="Left" Margin="370,380,0,0" VerticalAlignment="Top" Width="75" Style="{DynamicResource bellRingersFontStyle}" RenderTransformOrigin="0.52,-0.952" Click="clear_Click"/>
+
+
+
+
+    </Grid>
+</Window>
